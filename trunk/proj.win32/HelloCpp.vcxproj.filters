@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObj">
+      <UniqueIdentifier>{e7bd2936-f169-40b1-a45c-651486e021d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Config">
+      <UniqueIdentifier>{3d2345f6-0b19-4d7a-bf6d-2c5fbfcb00ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ConfigFactory">
+      <UniqueIdentifier>{f841c910-dd55-48ae-92f3-70e7aa8f8525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Base">
+      <UniqueIdentifier>{e57003d0-78b3-414c-9154-deffa70de014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GameObjInfo">
+      <UniqueIdentifier>{ef7dabdb-2860-486a-934f-9e83352aa64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{12e8a814-306e-4594-acf9-df6bdd6ebcda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utilities">
+      <UniqueIdentifier>{2429e36f-df9f-4ec4-8459-544375e8e158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Map">
+      <UniqueIdentifier>{d516f694-1712-443a-930f-dfc7f76ef6b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AirCraft.cpp">
+      <Filter>Classes\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AirEnemy.cpp">
+      <Filter>Classes\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Background.cpp">
+      <Filter>Classes\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>Classes\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AirPlaneConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameBulletConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AirPlaneConfigFactory.cpp">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BulletConfigFactory.cpp">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameBulletConfigFactory.cpp">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConfigObj.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameCollisionManager.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameCharacter.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameContainer.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameEnemy.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePlayer.cpp">
+      <Filter>Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImagesConfigFactory.cpp">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParticleConfigFactory.cpp">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ParticleConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ImagesConfig.cpp">
+      <Filter>Classes\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EffectPlayer.cpp">
+      <Filter>Classes\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StringUtilities.cpp">
+      <Filter>Classes\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionUtilitites.cpp">
+      <Filter>Classes\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapContainer.cpp">
+      <Filter>Classes\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AirCraft.h">
+      <Filter>Classes\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AirEnemy.h">
+      <Filter>Classes\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Background.h">
+      <Filter>Classes\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>Classes\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AirPlaneConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBulletConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AirPlaneConfigFactory.h">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletConfigFactory.h">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBulletConfigFactory.h">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConfigInfo.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConfigObj.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConfigInfoFactory.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCollisionManager.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCharacter.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameContainer.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameEnemy.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AirPlaneInfo.h">
+      <Filter>Classes\GameObjInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BulletInfo.h">
+      <Filter>Classes\GameObjInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlayer.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImagesConfigFactory.h">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParticleConfigFactory.h">
+      <Filter>Classes\ConfigFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ParticleConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ImagesConfig.h">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EffectPlayer.h">
+      <Filter>Classes\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BaseGameComponentsManager.h">
+      <Filter>Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stringUtilities.h">
+      <Filter>Classes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShareMacros.h">
+      <Filter>Classes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShareDefine.h">
+      <Filter>Classes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constant.h">
+      <Filter>Classes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionUtiliies.h">
+      <Filter>Classes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapContainer.h">
+      <Filter>Classes\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

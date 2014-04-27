@@ -1,0 +1,4 @@
+ID,Hp,Damage,HasBullet,Image,Velocity,BulletType,Direction
+1001,1000,10,TRUE,1001,5,1001,1
+1002,1000,15,FALSE,1004,7,1001,-1
+1003,1000,20,FALSE,1004,4,1001,-1
